@@ -1,6 +1,6 @@
 # The d4rk h4ck
 
-http://blog.sin9yt.net
+https://sin9yt.net
 
 ## What is it?
 
