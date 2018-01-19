@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The d4rk h4ck
+title: Home
 ---
 
 # $ cat about.txt
