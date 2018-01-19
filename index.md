@@ -14,13 +14,23 @@ The categories to post was to support us, but you can change as you need.
 
 E-mail:
 	
-	sindhoorhegde378[at]gmail[dot]com
+> sindhoorhegde378[at]gmail[dot]com
+
 PGP:
 
-	E106 60C0 DC06 98D7 EBA3  0E26 CC20 47C7 1F4C E758
+> [E106 60C0 DC06 98D7 EBA3  0E26 CC20 47C7 1F4C E758](/assets/key.txt)
 
 Twitter:
-	@sin9yt
+
+> [@sin9yt](https://twitter.com/sin9yt)
+
+GitHub:
+
+> [sin9yt](https://github.com/sin9yt)
+
+Bitcoin: 
+	
+	1E4cbGnqx4RRR3Lb2rJV1mohoErnWyHe9g
 
 # $ cat team.txt
 {:id="team"}
