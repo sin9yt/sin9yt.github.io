@@ -18,7 +18,7 @@ E-mail:
 
 PGP:
 
-> [E106 60C0 DC06 98D7 EBA3  0E26 CC20 47C7 1F4C E758](/assets/key.txt)
+> [E106 60C0 DC06 98D7 EBA3  0E26 CC20 47C7 1F4C E758](/assets/pub.key.asc)
 
 Twitter:
 
