@@ -1,5 +1,6 @@
 ---
 layout: default
+title: The d4rk h4ck
 ---
 
 # $ cat about.txt
@@ -30,22 +31,7 @@ GitHub:
 
 Bitcoin: 
 	
-	1E4cbGnqx4RRR3Lb2rJV1mohoErnWyHe9g
-
-# $ cat team.txt
-{:id="team"}
-
-<ul>
-{% for member in site.categories.team reversed %}
-<li id="{{ member.title }}">{{ member.title }}
-<ul>
-<li>{{ member.mail }}</li>
-<li><a href="https://github.com/{{ member.github }}">https://github.com/{{ member.github }}</a></li>
-<li><a href="{{ member.site }}">{{ member.site }}</a></li>
-</ul>
-</li>
-{% endfor %}
-</ul>
+> 1E4cbGnqx4RRR3Lb2rJV1mohoErnWyHe9g
 
 # $ cat projects.txt
 {:id="projects"}

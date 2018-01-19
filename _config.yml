@@ -1,8 +1,8 @@
 # Site specific settings
 title: "The d4rk h4ck"
 name: "Website name"
-keywords: "Key, words, about, this, website"
-baseurl: "/"
+keywords: "Security, Hacking"
+baseurl: ""
 url: "https://sin9yt.net"
 description: "sin9yt's personal blog"
 cover: "/assets/img/cover.svg"
@@ -14,9 +14,6 @@ lang_alternate: "pt_BR"
 ssl: false # It will redirect to https
 
 # Media
-# Just the shortname:
-# facebook: lampiaosec # Rigth
-# facebook: facebook.com/lampiaosec # Wrong
 disqus: 
 twitter: sin9yt
 facebook: 
