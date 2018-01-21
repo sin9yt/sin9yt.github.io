@@ -1,26 +1,31 @@
-# Site specific settings
-title: "The d4rk h4ck"
-name: "Website name"
-keywords: "Security, Hacking"
-author: "Sindhoor Tilak"
-baseurl: ""
-url: "https://sin9yt.net"
-description: "sin9yt's personal blog"
-cover: "/assets/img/cover.svg"
-fanpage_id: ""
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-# Site general settings
-lang: "en"
-lang_alternate: "pt_BR"
-ssl: false # It will redirect to https
+# Setup
+title:            sin9yt
+tagline:          Black Theme for Jekyll
+description:      "...d4rk h4ck"
+url:              https://github.com/karloespiritu/blackdoc
+baseurl:          /
+                  # the optional subpath of your site, e.g. "/my-jekyll-site/"
+                  # This will apply to all pages in your Jekyll site.
 
-# Media
-disqus: 
-twitter: sin9yt
-facebook: 
-github: sin9yt
-google:
+author:
+  name:           Karlo Espiritu
+  url:            https://twitter.com/karloespiritu
 
-# Build settings
-markdown: kramdown
-permalink: /:categories/:title/
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/my-jekyll-site/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Custom vars
+version:            2.0.0
+
+github:
+  repo:             https://github.com/karloespiritu/blackdoc
