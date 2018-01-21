@@ -3,17 +3,17 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            sin9yt
-tagline:          Black Theme for Jekyll
+title:            "sin9yt"
+tagline:          ":: Home"
 description:      "...d4rk h4ck"
-url:              https://github.com/karloespiritu/blackdoc
-baseurl:          /
+url:              "https://sin9yt.net"
+baseurl:          "/"
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
 
 author:
-  name:           Karlo Espiritu
-  url:            https://twitter.com/karloespiritu
+  name:           Sindhoor Tilak
+  url:            https://twitter.com/sin9yt
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -25,7 +25,8 @@ plugins:
   - jekyll-paginate
 
 # Custom vars
-version:            2.0.0
+version:            1.0.0
 
 github:
-  repo:             https://github.com/karloespiritu/blackdoc
+  repo:             https://github.com/sin9yt/sin9yt.github.io
+twitter: https://twitter.com/sin9yt
