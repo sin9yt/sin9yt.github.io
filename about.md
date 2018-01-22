@@ -3,16 +3,20 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hi there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+## $ cat about-me.txt
 
-## About BlackDoc Theme
+I work as a security consultant at a consulting company. My interests in particular include binary exploitation, red teaming and vulnerability research. I play CTFs regularly and like sharing things that I've learnt in the process.
 
-Some relevant information about this project:
+This blog is collection of ctf writeups, offensive techniques, security ramblings and some personal thoughts. I believe that the world can and should be open and free. 
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Theme based on [Poole](http://getpoole.com), the Jekyll butler, and the [Hyde](http://hyde.getpoole.com) theme
-* Ideal for sites requiring master-detail layout such as documentation, cheatsheets, lyrics, notes, etc.
-* Need a beautiful color scheme for black background? Then you will love BlackDoc theme.
+Please contact me by e-mail if you have any questions.  
 
+Twitter: [@sin9yt](https://twitter.com/sin9yt)
+
+Github:  [https://github.com/sin9yt](https://github.com/sin9yt)
+
+Keybase.io: [https://keybase.io/sin9yt](https://keybase.io/sin9yt)
+
+E-Mail: sindhoor[at]sin9yt[dot]net
+
+PGP: [E106 60C0 DC06 98D7 EBA3  0E26 CC20 47C7 1F4C E758](https://sin9yt.net/public/pub.key.txt)

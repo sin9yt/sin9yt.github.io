@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            "sin9yt"
 tagline:          ":: Home"
-description:      "...d4rk h4ck"
+description:      "...the d4rk h4ck"
 url:              "https://sin9yt.net"
 baseurl:          "/"
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
@@ -28,5 +28,5 @@ plugins:
 version:            1.0.0
 
 github:
-  repo:             https://github.com/sin9yt/sin9yt.github.io
-twitter: https://twitter.com/sin9yt
+  repo: "https://github.com/sin9yt/sin9yt.github.io"
+twitter: "https://twitter.com/sin9yt"
