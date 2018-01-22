@@ -26,11 +26,15 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/master.zip">Download</a>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/master.zip">RSS/Atom</a>
       <hr>
-      <a class="sidebar-nav-item" href="{{ site.twitter }}">@sin9yt</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      
+      <div class="sidebar-nav-item">
+        <a href="{{ site.twitter }}"><i class="fa fa-twitter fa-lg"></i></a>&nbsp &nbsp &nbsp
+        <a href="{{ site.github.repo }}"><i class="fa fa-github fa-lg"></i></a>&nbsp &nbsp &nbsp
+        <a href="{{ site.keybase }}"><i class="fa fa-key fa-lg"></i></a>&nbsp &nbsp &nbsp
+        <a href="mailto:{{ site.email }}"><i class="fa fa-envelope fa-lg"></i></a>&nbsp &nbsp &nbsp
+        <a href="atom.xml"><i class="fa fa-rss fa-lg"></i></a>
+      </div>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. MIT License.</p>

@@ -13,7 +13,7 @@ baseurl:          "/"
 
 author:
   name:           Sindhoor Tilak
-  url:            https://twitter.com/sin9yt
+  email:          sindhoor@sin9yt.net
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -28,5 +28,7 @@ plugins:
 version:            1.0.0
 
 github:
-  repo: "https://github.com/sin9yt/sin9yt.github.io"
+  repo: "https://github.com/sin9yt/"
 twitter: "https://twitter.com/sin9yt"
+email: "sindhoor@sin9yt.net"
+keybase: "https://keybase.io/sin9yt"

@@ -20,3 +20,5 @@ Keybase.io: [https://keybase.io/sin9yt](https://keybase.io/sin9yt)
 E-Mail: sindhoor[at]sin9yt[dot]net
 
 PGP: [E106 60C0 DC06 98D7 EBA3  0E26 CC20 47C7 1F4C E758](https://sin9yt.net/public/pub.key.txt)
+
+Bitcoin: 1E4cbGnqx4RRR3Lb2rJV1mohoErnWyHe9g
