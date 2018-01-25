@@ -7,7 +7,7 @@ title:            "sin9yt"
 tagline:          ":: Home"
 description:      "...the d4rk h4ck"
 url:              "https://sin9yt.net"
-baseurl:          "/"
+baseurl:          /
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
 
