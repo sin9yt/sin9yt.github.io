@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-30T02:20:54+05:30</updated><id>http://localhost:4000/</id><title type="html">sin9yt</title><subtitle>...the d4rk h4ck</subtitle><author><name>Sindhoor Tilak</name><email>sindhoor@sin9yt.net</email></author><entry><title type="html">Gawds CTF/ Swisshawk</title><link href="http://localhost:4000/2018/01/21/gawds-ctf-swisshawk.html" rel="alternate" type="text/html" title="Gawds CTF/ Swisshawk" /><published>2018-01-21T00:00:00+05:30</published><updated>2018-01-21T00:00:00+05:30</updated><id>http://localhost:4000/2018/01/21/gawds-ctf-swisshawk</id><content type="html" xml:base="http://localhost:4000/2018/01/21/gawds-ctf-swisshawk.html">&lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-30T02:25:10+05:30</updated><id>http://localhost:4000/</id><title type="html">sin9yt</title><subtitle>...the d4rk h4ck</subtitle><author><name>Sindhoor Tilak</name><email>sindhoor@sin9yt.net</email></author><entry><title type="html">Gawds CTF/ Swisshawk</title><link href="http://localhost:4000/2018/01/21/gawds-ctf-swisshawk.html" rel="alternate" type="text/html" title="Gawds CTF/ Swisshawk" /><published>2018-01-21T00:00:00+05:30</published><updated>2018-01-21T00:00:00+05:30</updated><id>http://localhost:4000/2018/01/21/gawds-ctf-swisshawk</id><content type="html" xml:base="http://localhost:4000/2018/01/21/gawds-ctf-swisshawk.html">&lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
 
 &lt;p&gt;This challenge seemed easy in the beginning. The second part of challenge had me breaking my head, 
 it made me learn a new vector in post-exploitation of web apps.&lt;/p&gt;
@@ -15,7 +15,7 @@ it made me learn a new vector in post-exploitation of web apps.&lt;/p&gt;
 
 &lt;p&gt;The challenge in a sense was quite straight forward. Opening the page greets you with a steady message.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/public/images/startup-swisshack.png&quot; alt=&quot;Challenge&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/public/assets/images/startup-swisshack.png&quot; alt=&quot;Challenge&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As always the entry point being the source, I decided to give it a look.&lt;/p&gt;
 

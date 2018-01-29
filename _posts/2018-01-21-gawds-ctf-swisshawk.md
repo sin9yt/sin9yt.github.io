@@ -20,7 +20,7 @@ Tamanna can only restore the website if she knows the flags, please help tamanna
 
 The challenge in a sense was quite straight forward. Opening the page greets you with a steady message.
 
-![Challenge](/public/images/startup-swisshack.png) 
+![Challenge](/public/assets/images/startup-swisshack.png) 
 
 As always the entry point being the source, I decided to give it a look.
 

@@ -9,6 +9,12 @@ description:      "...the d4rk h4ck"
 url:              "https://sin9yt.net"
 baseurl:          /
 
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+
 author:
   name:           Sindhoor Tilak
   email:          sindhoor@sin9yt.net
