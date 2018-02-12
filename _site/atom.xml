@@ -4,13 +4,106 @@
  <title>sin9yt</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-01-30T02:25:10+05:30</updated>
+ <updated>2018-02-13T02:03:15+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Sindhoor Tilak</name>
    <email>sindhoor@sin9yt.net</email>
  </author>
 
+ 
+ <entry>
+   <title>Gawds CTF/ Know whats in your head</title>
+   <link href="http://localhost:4000/2018/01/28/gawds-ctf-know-whats-in-your-head.html"/>
+   <updated>2018-01-28T00:00:00+05:30</updated>
+   <id>http://localhost:4000/2018/01/28/gawds-ctf-know-whats-in-your-head</id>
+   <content type="html">&lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
+
+&lt;p&gt;Try to see whats inside your head before moving forward.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://head.ctf.gawds.in&quot;&gt;https://head.ctf.gawds.in&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This challenge was filled with dummy flags and was quite frustrating.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;the-challenge&quot;&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;Looking at the description, it looks like the answer lies within the headers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/assets/images/startup-knowyourhead.png&quot; alt=&quot;Challenge&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Like always, checking the &lt;code class=&quot;highlighter-rouge&quot;&gt;robots.txt&lt;/code&gt; file, gave up the following info.&lt;/p&gt;
+
+&lt;pre&gt;
+### BEGIN FILE ###
+
+User-agent: gawds-crawler
+Disallow:
+
+### END FILE ###
+&lt;/pre&gt;
+
+&lt;p&gt;From the robots.txt file, we can now infer that the &lt;code class=&quot;highlighter-rouge&quot;&gt;User-Agent&lt;/code&gt; must be &lt;code class=&quot;highlighter-rouge&quot;&gt;gawds-crawler&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Navigating to&lt;/p&gt;
+&lt;pre&gt;http://swisshawk.ctf.gawds.in/flag&lt;/pre&gt;
+&lt;p&gt;greets us with a &lt;strong&gt;Access Denied&lt;/strong&gt; error.&lt;/p&gt;
+
+&lt;p&gt;Changing the method to &lt;code class=&quot;highlighter-rouge&quot;&gt;POST&lt;/code&gt; also results in the same error.&lt;/p&gt;
+
+&lt;p&gt;I started to dig more.&lt;/p&gt;
+
+&lt;p&gt;I stumble upon &lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.xml&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+&amp;lt;urlset xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&amp;gt;
+&amp;lt;url&amp;gt;
+&amp;lt;loc&amp;gt;http://www.example.com/&amp;lt;/loc&amp;gt;
+&amp;lt;lastmod&amp;gt;2018-01-02&amp;lt;/lastmod&amp;gt;
+&amp;lt;changefreq&amp;gt;once&amp;lt;/changefreq&amp;gt;
+&amp;lt;priority&amp;gt;0.8&amp;lt;/priority&amp;gt;
+&amp;lt;/url&amp;gt;
+&amp;lt;url&amp;gt;
+&amp;lt;loc&amp;gt;
+http://www.example.com/53129cdb3222c675a3ab1d3763a7665e90e26aed
+&amp;lt;/loc&amp;gt;
+&amp;lt;lastmod&amp;gt;2018-01-02&amp;lt;/lastmod&amp;gt;
+&amp;lt;changefreq&amp;gt;once&amp;lt;/changefreq&amp;gt;
+&amp;lt;priority&amp;gt;1.0&amp;lt;/priority&amp;gt;
+&amp;lt;/url&amp;gt;
+&amp;lt;/urlset&amp;gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Visiting&lt;/p&gt;
+&lt;pre&gt;https://head.ctf.gawds.in/53129cdb3222c675a3ab1d3763a7665e90e26aed&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/assets/images/knowyourhead-dummy1.png&quot; alt=&quot;Dummy1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Checking the headers:&lt;/p&gt;
+
+&lt;pre&gt;tryharderflag:flag{Alm0st_Reach4d_But_THis_is_A_DUmmY_Flag}&lt;/pre&gt;
+
+&lt;p&gt;This was quite pissing off! I decided to give last and final shot.&lt;/p&gt;
+
+&lt;p&gt;Looking at the hash string, it seemed like a sha-1 hash.&lt;/p&gt;
+
+&lt;p&gt;So, I performed sha-1 hash of &lt;code class=&quot;highlighter-rouge&quot;&gt;flag&lt;/code&gt; and obtained&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;112f3a99b283a4e1788dedd8e0e5d35375c33747&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Visiting,&lt;/p&gt;
+&lt;pre&gt;https://head.ctf.gawds.in/112f3a99b283a4e1788dedd8e0e5d35375c33747&lt;/pre&gt;
+
+&lt;p&gt;You get:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/assets/images/knowyourhead-dummy2.png&quot; alt=&quot;Dummy2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When we check the headers, we get:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Flag: flag{G00d_W0rk_AlWys_check_f0R_headers}&lt;/strong&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Gawds CTF/ Swisshawk</title>
