@@ -2,6 +2,7 @@
 layout: post
 title: Gawds CTF/ Swisshawk 
 desc: This challenge seemed easy in the beginning. The second part of challenge had me breaking my head, it made me learn a new vector in post-exploitation of web apps.
+comments: true
 ---
 
 ## Description
