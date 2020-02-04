@@ -4,6 +4,8 @@ title: Gawds CTF/ Know whats in your head
 desc: This challenge was filled with dummy flags and was quite frustrating. Looking at the description, it looks like the answer lies within the headers.
 comments: true 
 type: writeup
+category: Web
+points: 250
 ---
 
 ## Description
