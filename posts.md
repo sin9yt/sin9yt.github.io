@@ -24,6 +24,6 @@ title: Posts
     {% if post.type == "article" %}
       <li><a href="{{ site.base }}{{ post.url | remove_first: '/'}}"></a></li>
     {% endif %}
-  { %endfor %}
+  { % endfor %}
 </ul>
 </p>
