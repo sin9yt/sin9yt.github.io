@@ -5,6 +5,7 @@
 
   <body class="layout-reverse">
 
+
     {% include sidebar.html %}
 
     <div class="content container">
@@ -12,4 +13,7 @@
     </div>
 
   </body>
+  {% if site.google-analytics.id %}
+    {% include google-analytics.html %}
+  {% endif %}
 </html>

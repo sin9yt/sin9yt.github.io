@@ -30,7 +30,8 @@ plugins:
 
 # Custom vars
 version:            1.0.0
-
+google-analytics:
+  id: "UA-157752786-1"
 github:
   repo: "https://github.com/sin9yt/"
 twitter: "https://twitter.com/sin9yt"
