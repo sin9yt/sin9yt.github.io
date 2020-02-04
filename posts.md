@@ -1,6 +1,7 @@
 ---
-layout: posts_list
+layout: page 
 title: Posts 
+category: list
 ---
 
 * * *
