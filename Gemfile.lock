@@ -18,9 +18,11 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     faraday (1.0.0)
       multipart-post (>= 1.2, < 3)
     ffi (1.12.2)
+    ffi (1.12.2-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (1.8.2)
@@ -71,6 +73,8 @@ GEM
     safe_yaml (1.0.5)
     sassc (2.2.1)
       ffi (~> 1.9)
+    sassc (2.2.1-x64-mingw32)
+      ffi (~> 1.9)
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
@@ -80,10 +84,11 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   bundler (~> 1.12)
   jekyll-theme-blackdoc!
 
 BUNDLED WITH
-   1.16.1
+   1.17.2
