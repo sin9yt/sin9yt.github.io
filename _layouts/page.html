@@ -21,7 +21,7 @@ layout: default
     <ul style="font-size: 1rem">
     {% for post in site.posts %}
       {% if post.type == "article" %}
-        <li><a href="{{ site.base }}{{ post.url | remove_first: '/'}}"></a></li>
+        <li><a href="{{ site.base }}{{ post.url | remove_first: '/'}}">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
     </ul>
