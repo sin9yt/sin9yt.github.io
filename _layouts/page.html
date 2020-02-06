@@ -19,7 +19,7 @@ layout: default
   <div style="font-size: 2rem;font-family: 'EB Garamond', serif;color: #caad00;">Articles</div>
   <p>
     <ul style="font-size: 1rem">
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
       {% if post.type == "article" %}
         <li><a href="{{ site.base }}{{ post.url | remove_first: '/'}}"></a></li>
       {% endif %}
