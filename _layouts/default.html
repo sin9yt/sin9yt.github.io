@@ -5,13 +5,15 @@
 
   <body class="layout-reverse">
 
-
     {% include sidebar.html %}
 
     <div class="content container">
       {{ content }}
+      <div id="footer">
+			  <hr />
+			  <p>&copy; 2020 sin9yt.net. Theme by <a href="https://github.com/karloespiritu/BlackDoc">BlackDoc.</a></p>
+      </div>
     </div>
-
   </body>
   {% if site.google-analytics.id %}
     {% include google-analytics.html %}
