@@ -1,4 +1,4 @@
-# The d4rk h4ck
+# sin9yt
 
 https://sin9yt.net
 
