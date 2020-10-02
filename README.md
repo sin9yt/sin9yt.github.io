@@ -6,6 +6,9 @@ https://sin9yt.net
 
 Quickly, my blog. My rambling about Security.
 
+I'm a security enthusiast put in Maryland and is interested in Tech,sports and cycling.
+To know more about me, please visit the website.
+
 ## Logo
 
 Yet to make it
